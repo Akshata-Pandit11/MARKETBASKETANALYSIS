@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> 
+            PROJECT REPORT
+        </title>
+    </head>
+    <script src="report.css"></script>
+    <link rel="stylesheet" href="C:\\Users\\Akshata Pandit\\OneDrive\\vscode1\\marketbasket analysis\\report.css">
+    <body>
+        <section class="container">
+        <div class="image">
+            <img src="C:\Users\Akshata Pandit\OneDrive\vscode1\marketbasket analysis\images\MARKET BASKET ANALYSIS.png" style="background-image:none ;">
+        </div>
+        </section>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="report.html"></a>Home /</a></li>
+                    <li><a href="graphs.html">Graphs /</a></li>
+                    <li><a href="insights.html">Insights/</a></li>
+                
+                </ul>
+            </nav>   
+        </header>
+        <section class="intro">
+            <div class="content">
+                <div class="share-container">
+                    <div class="share">
+                        <p>Share</p>
+                        <ul>
+                        <li>
+                        <a target="_blank" href="https://x.com/intent/post?url=https%3A%2F%2Fwww.formpl.us%2Fblog%2Fresearch-report&text=Research+Report%3A+Definition%2C+Types+++%5BWriting+Guide%5D">
+                                
+                            <img src="https://www.formpl.us/blog/static/dist/img/twitter-2.svg" style="width: 32px;">
+                        </a>
+                        </li>
+                    
+                        <li>
+                        <a target="_blank" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%2F%2Fwww.formpl.us%2Fblog%2Fresearch-report%26title%3DResearch%2520Report%3A%2520Definition%2C%2520Types%2520%2B%2520%255BWriting%2520Guide%255D">
+                            <img src="https://www.formpl.us/blog/static/dist/img/linkedin.svg" style="width: 32px;">
+                        </a>
+                        </li>
+                        <li>
+                        <a target="_blank" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.formpl.us%252Fblog%252Fresearch-report&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_GB">
+                            <img src="https://www.formpl.us/blog/static/dist/img/facebook.svg" style="width: 32px;">
+                        </a>
+                        </li>
+                        </ul>
+                
+                    </div>
+                </div>
+                <p>
+                <b>Market Basket Analysisis</b> a data mining technique used to uncover patterns and relationships between products purchased together. 
+                By analyzing large datasets of customer transactions, businesses can gain valuable insights into consumer behavior.
+                Essentially, market basket analysis identifies items frequently purchased together. For instance, if customers often buy bread and butter together, the analysis will reveal this association.
+                For the same we use Apriori algorithm-association rule to find the insights in the dataset.
+                </p>
+                
+            </div>
+    </section>
+    <section class="report">
+        <div class="report1">
+            <p>
+                <b>Apriori algorithm</b> is a foundational technique in data mining, particularly in the realm of market basket analysis.
+                It's designed to efficiently uncover frequent itemsets and generate association rules from large transactional datasets. 
+                <i>The algorithm hinges on a straightforward principle: if an itemset &nbsp;is frequent, then all its subsets must also be frequent.</i>
+                This is known as the Apriori property.Leveraging this property, Apriori employs a level-wise search approach to identify frequent itemsets.
+                <br>
+                <br>
+        
+                    <q>
+                    Itemset is a collection of items.
+                    Support is the proportion of transactions containing a specific itemset.
+                    Confidence is the conditional probability of buying an item B, given that item A was bought.<br>
+                    Lift is the Measures the increase in the probability of buying item B when item A is also bought.
+                    Association Rule: A rule that indicates the relationship between two itemsets. It is represented as {antecedent} -> {consequent}.
+                    </q>
+                
+            </p>
+            <img src="C:\\Users\\Akshata Pandit\\OneDrive\\vscode1\\marketbasket analysis\\images\\APRIORI ALGORITHM.png" style="width: 350px; height: 300px;">
+        </div>
+    </section>
+    <h4>MARKET BASKET ANALYSIS ON GROCERY DATASET</h4>
+    <section class="project">
+        <div class="project1">
+            <img src="C:\\Users\\Akshata Pandit\\OneDrive\\vscode1\\marketbasket analysis\\images\\grocery.png" style="width: 300px; height: 200px;">
+            
+            <p>
+                <b>PROBLEM STATEMENT:</b>&nbsp;
+                    <br>
+                    
+                <q>To efficiently analyzing the hidden patterns and relations in the grocery transction data of a supermarket.
+                    By identifying the most frequent of most happened pattern in the purchasing to understand the buyer's behavior towards different products.
+                    The Goal of the project is to optimize the product placement,creating effective cross-selling strategies 
+                    such that it will help to enhance the sales and overall performance of the supermarket.
+                </q>
+                    <br>
+                    <br>
+            </p>  
+        </div>
+    </section>
+    <section class="method">
+        <div class="method1">
+            <p>
+                <b>METHODOLOGY:</b>
+                <br>
+                
+                <b>Data collection and preprocessing:</b>
+                <br>
+                Dataset we used here is sourced from the Kaggle website 
+                <a href="https://www.kaggle.com/datasets/heeraldedhia/groceries-dataset">"https://www.kaggle.com/datasets/heeraldedhia/groceries-dataset</a>.
+        
+                <i>The attributes are:</i>Member number i.e the unique id for the customers given bty the supermarket.
+                Date i.e billing date or the date when item is purchased. 
+                ItemDescription contains the detail about the purchased itemset.The dataset has 38765 rows and 3 columns of object type.<i>Data Cleaning</i>,by handling the missing values, outliers, and inconsistencies in the dataset.
+                For<i> Data transforming</i> , we use the  python 
+                libraries like pandas for handling dataframes and datetime for formatting the Date attribute.
+                <br>
+                <br>
+               <b>Apriori Algorithm Application</b> 
+               <br>
+                        <i>Support Threshold Definition:</i> Determine the minimum support value to filter frequent itemsets.
+                    <br>
+                        <i>Candidate Generation:</i> Generate candidate itemsets based on frequent itemsets from the previous level.
+                    <br>
+                        <i>Support Counting:</i> Calculate the support for each candidate itemset.
+                    <br>
+                        <i>Frequent Itemset Generation:</i> Identify itemsets with support greater than or equal to the minimum support threshold.
+                    <br>
+                        <i>Iterative Process: </i>Repeat steps 2-4 until no new frequent itemsets are found.
+                <br>
+                <div class="asso">
+                    <div class="asso1">
+                        <b>Association Rule Generation</b>
+                        <br>
+                        Association rule mining is a data mining technique used to discover relationships between variables in large datasets. 
+                        In simpler terms, it helps identify items that are frequently bought together.
+                        <br>
+                        <i>Confidence Threshold:</i> Set the minimum confidence level for association rules.
+                    <br>
+                        <i>Rule Generation:</i> Generate association rules from frequent itemsets.
+                    <br>
+                        <i>Rule Evaluation:</i> Calculate confidence and lift for each rule.
+                    <br>
+                        <i>Rule Selection: </i>Select rules with confidence and lift greater than the defined thresholds.
+                    </div>
+                        <img src="C:\\Users\\Akshata Pandit\\OneDrive\\vscode1\\marketbasket analysis\\images\\ASSOCIATION RULE.png" style="width:350px; height:250px ;">
+                </div>
+
+            </p>
+        </div>
+    </section>
+    <section class="buttons">
+        <div class="buttons1">
+            <button><a href="graphs.html">GRAPHICAL ANALYSIS</a></button>
+        </div>
+    </section>
+    <footer>
+        <p>Contact:akshatapandit7@gmail.com</p>
+    </footer>
+    </body>
+</html>
